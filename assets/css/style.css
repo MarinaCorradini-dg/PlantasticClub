@@ -811,8 +811,15 @@ section {
   color: #012970;
   font-weight: 700;
   font-size: 32px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
+}
+
+.features .feature-icons h8 {
+  margin: auto;
+  line-height: 24px;
+  text-align: center;
+    max-width: 800px;
 }
 
 @media (max-width: 768px) {
