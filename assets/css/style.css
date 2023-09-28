@@ -848,13 +848,14 @@ section {
 .features .feature-icons .content .icon-box i {
   font-size: 44px;
   line-height: 44px;
-  color: #0245bc;
-  margin-right: 15px;
+  color: #f3a719;
+  margin-right: 30px;
 }
 
 .features .feature-icons .content .icon-box p {
   font-size: 15px;
   color: #848484;
+  margin-bottom: 40px;
 }
 
 .features .feature-icons .space {
