@@ -1135,21 +1135,28 @@ section {
 .pricing .btn-buy {
   display: inline-block;
   padding: 8px 40px 10px 40px;
-  border-radius: 50px;
-  color: #4154f1;
+  /* para cambiar el color del fondo del boton */
+  background: linear-gradient(to right, #ffffff46, #c1ffea2a) padding-box, 
+  linear-gradient(to right, #E1FD91, #25D471) border-box;
+  border-radius: 50em;
+  border: 3px solid transparent;
+  transition: 0.5s;
+  color: #13140d;
+  box-shadow: 0px 5px 30px rgba(21, 22, 21, 0.178);
   transition: none;
   font-size: 16px;
   font-weight: 400;
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   transition: 0.3s;
-  border: 1px solid #4154f1;
+  
 }
 
 .pricing .btn-buy:hover {
-  background: #4154f1;
+  background: linear-gradient(to right, #E1FD91, #25D471);
   color: #fff;
 }
+
 
 .pricing .featured {
   width: 200px;
@@ -1161,6 +1168,21 @@ section {
   font-size: 14px;
   padding: 1px 0 3px 0;
   background: #4154f1;
+  color: #fff;
+}
+
+.pricing .Time {
+  width: 200px;
+  position: absolute;
+  top: 18px;
+  left: -68px;
+  transform: rotate(-45deg);
+  z-index: 1;
+  font-size: 13px;
+  font-weight: 300;
+  font-variant: small-caps;
+  padding: 3px 0 2px 0px;
+  background: #088644;
   color: #fff;
 }
 
