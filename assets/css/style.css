@@ -54,14 +54,15 @@ section {
 .section-texto {
   text-align: left;
   padding-bottom: 40px;
+
 }
 
 .section-texto h2 {
   font-size: 13px;
   letter-spacing: 1px;
-  font-weight: 700;
-  margin: 0;
-  color: #4154f1;
+  font-weight: 300;
+  margin: 100px 0px 20px 0px;
+  color: #869FA0;
   text-transform: uppercase;
 }
 
@@ -74,13 +75,23 @@ section {
   text-transform: uppercase;
 }
 
-.section-texto p {
-  margin: 10px 0 0 0;
+.section-texto span2 {
+  margin: 20px 20 0 0;
   padding: 0;
-  font-size: 38px;
-  line-height: 48px;
-  font-weight: 700;
-  color: #012970;
+  font-size: 58px;
+  line-height: 120%;
+  font-weight: 300;
+  color: #25D471;
+}
+
+
+.section-texto p {
+  margin: 20px 20 0 0;
+  padding: 0;
+  font-size: 58px;
+  line-height: 120%;
+  font-weight: 300;
+  color: #ffffff;
 }
 
 .section-header p {
@@ -1107,10 +1118,12 @@ section {
   color: #bababa;
   font-size: 16px;
   font-weight: 300;
+
 }
 
 .pricing img {
   padding: 30px 40px;
+  
 }
 
 .pricing ul {
@@ -1136,7 +1149,7 @@ section {
   display: inline-block;
   padding: 8px 40px 10px 40px;
   /* para cambiar el color del fondo del boton */
-  background: linear-gradient(to right, #ffffff46, #c1ffea2a) padding-box, 
+  background: linear-gradient(to right, #ffffff1a, #c1ffea11) padding-box, 
   linear-gradient(to right, #E1FD91, #25D471) border-box;
   border-radius: 50em;
   border: 3px solid transparent;
