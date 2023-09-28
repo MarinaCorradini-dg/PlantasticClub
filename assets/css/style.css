@@ -50,6 +50,21 @@ section {
   padding-bottom: 40px;
 }
 
+
+.section-texto {
+  text-align: left;
+  padding-bottom: 40px;
+}
+
+.section-texto h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0;
+  color: #4154f1;
+  text-transform: uppercase;
+}
+
 .section-header h2 {
   font-size: 13px;
   letter-spacing: 1px;
@@ -57,6 +72,15 @@ section {
   margin: 0;
   color: #4154f1;
   text-transform: uppercase;
+}
+
+.section-texto p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #012970;
 }
 
 .section-header p {
