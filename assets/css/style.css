@@ -1084,8 +1084,11 @@ section {
 # Pricing
 --------------------------------------------------------------*/
 .pricing {
-  background-color: #EAEBF5 ;
-  padding-top: 10%;
+  width: 100%;
+ padding-top: 20%;
+ padding-bottom: 30%;
+  background: url(../img/fondo-pricing.png) top center no-repeat;
+  background-size: cover;
   } 
 
 .pricing .box {
