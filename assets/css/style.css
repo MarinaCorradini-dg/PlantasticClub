@@ -1068,10 +1068,12 @@ section {
 
 .pricing .box {
   padding: 40px 20px;
-  background: #fff;
+  border: 1px solid #ffffff00;
+  background: radial-gradient(183.01% 81.08% at 50% 101.82%, rgba(154, 253, 145, 0.20) 0%, rgba(0, 0, 0, 0.00) 100%), radial-gradient(130.43% 110.65% at 100% 0%, rgba(255, 255, 255, 0.21) 0%, rgba(255, 255, 255, 0.00) 100%);
+  backdrop-filter: blur(6.5px);
   text-align: center;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  border-radius: 4px;
+  border-radius: 24px;
   position: relative;
   overflow: hidden;
   transition: 0.3s;
