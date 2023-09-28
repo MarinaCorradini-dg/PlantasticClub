@@ -104,6 +104,11 @@ section {
   margin-bottom: 2.1%;
 }
 
+
+.section-pricing{
+  color: #ddd;
+}
+
 @media (max-width: 768px) {
   .section-header p {
     font-size: 28px;
@@ -797,7 +802,7 @@ section {
 }
 
 .features .feture-tabs h3 {
-  color: ##08874A;
+  color: #08874A;
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 10px;
@@ -948,6 +953,7 @@ section {
   margin: auto;
   line-height: 24px;
   text-align: center;
+  font-weight: 300;
   }
 
 .services .service-box .read-more {
@@ -1086,10 +1092,14 @@ section {
 .pricing {
   width: 100%;
  padding-top: 20%;
- padding-bottom: 30%;
+ padding-bottom: 35%;
   background: url(../img/fondo-pricing.png) top center no-repeat;
   background-size: cover;
   } 
+
+.pcolor{
+  color: #ffff;
+}
 
 .pricing .box {
   padding: 40px 20px;
@@ -1103,6 +1113,7 @@ section {
   overflow: hidden;
   transition: 0.3s;
   margin-top: 20%;
+  height: 820px;
 }
 
 .pricing .box:hover {
@@ -1118,7 +1129,7 @@ section {
 
 .pricing .price {
   font-size: 36px;
-  color: #444444;
+  color: #25D471;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
 }
@@ -1137,14 +1148,14 @@ section {
 }
 
 .pricing img {
-  padding: 30px 40px;
+  padding: 20px 40px;
   
 }
 
 .pricing ul {
   padding: 0;
   list-style: none;
-  color: #444444;
+  color: #d4cfcf;
   text-align: center;
   line-height: 26px;
   font-size: 16px;
@@ -1156,8 +1167,8 @@ section {
 }
 
 .pricing ul .na {
-  color: #ccc;
-  text-decoration: line-through;
+  color: #E1FD91;
+  
 }
 
 .pricing .btn-buy {
