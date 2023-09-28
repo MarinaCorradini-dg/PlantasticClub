@@ -946,6 +946,7 @@ section {
 .services .service-box .read-more {
   display: inline-flex;
   align-items: center;
+  position: relative;
   justify-content: center;
   font-weight: 500;
   font-size: 16px;
@@ -1065,7 +1066,7 @@ section {
 .services .service-box:hover h3,
 .services .service-box:hover p,
 .services .service-box:hover .read-more {
-  color: rgb(20, 46, 46);;
+  color: #fff;;
 }
 
 .services .service-box:hover .icon {
