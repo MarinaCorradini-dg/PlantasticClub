@@ -1085,7 +1085,8 @@ section {
 --------------------------------------------------------------*/
 .pricing {
   background-color: #EAEBF5 ;
-}
+  padding-top: 10%;
+  } 
 
 .pricing .box {
   padding: 40px 20px;
@@ -1098,6 +1099,7 @@ section {
   position: relative;
   overflow: hidden;
   transition: 0.3s;
+  margin-top: 20%;
 }
 
 .pricing .box:hover {
