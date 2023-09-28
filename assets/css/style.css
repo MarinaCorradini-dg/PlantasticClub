@@ -172,7 +172,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #4154f1;
+  background: #1f8d49;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -186,7 +186,7 @@ section {
 }
 
 .back-to-top:hover {
-  background: #6776f4;
+  background: #44d875;
   color: #fff;
 }
 
@@ -267,8 +267,8 @@ section {
   padding: 10px 0 10px 30px;
   font-family: "Nunito", sans-serif;
   font-size: 16px;
-  font-weight: 700;
-  color: #013289;
+  font-weight: 100;
+  color: #ffffff;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -284,22 +284,22 @@ section {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #4154f1;
+  color: #41f17c;
 }
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #4154f1;
+  background: linear-gradient(to right,  #aad83e, #59c97e);
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
-  color: #fff;
+  color: #0f221d;
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
-  color: #fff;
-  background: #5969f3;
+  color: #c8f3a0;
+  background: #0a191d;
 }
 
 .navbar .dropdown ul {
@@ -336,7 +336,7 @@ section {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #4154f1;
+  color: #087e2c;
 }
 
 .navbar .dropdown:hover>ul {
@@ -362,13 +362,13 @@ section {
 
 .navbar .megamenu ul li a,
 .navbar .megamenu ul li:hover>a {
-  color: #013289;
+  color: #066823;
 }
 
 .navbar .megamenu ul li a:hover,
 .navbar .megamenu ul li .active,
 .navbar .megamenu ul li .active:hover {
-  color: #4154f1;
+  color: #087e2c;
 }
 
 .navbar .dropdown .dropdown ul {
@@ -398,7 +398,7 @@ section {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #012970;
+  color: #087e2c;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -427,7 +427,7 @@ section {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(1, 22, 61, 0.9);
+  background: rgba(12, 105, 43, 0.9);
   transition: 0.3s;
 }
 
@@ -455,13 +455,13 @@ section {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #012970;
+  color: #087e2c;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #4154f1;
+  color: #1dd454;
 }
 
 .navbar-mobile .getstarted,
@@ -942,6 +942,13 @@ section {
   color: #444444;
   font-weight: 300;
 }
+
+.random h18{
+  max-width: 60px; 
+  margin: auto;
+  line-height: 24px;
+  text-align: center;
+  }
 
 .services .service-box .read-more {
   display: inline-flex;
